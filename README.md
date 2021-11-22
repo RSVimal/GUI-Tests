@@ -1,4 +1,4 @@
-# GUI-Tests
+# GUI-Test and  API Test
 
 Steps followed for API testing:
 

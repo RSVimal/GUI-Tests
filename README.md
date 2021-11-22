@@ -41,6 +41,8 @@ Test assertions:
 
 .should('be.visible') - Used to validate whether the text is visible or not
 
+Submitted the transfer fund form with empty amount value to check whether the form is prevented from submit and error message is visible.
+
 Tried the below logic to validate whether the "available balance" is equal to the "total balance" but the unable to get the values
 
  cy.get('th').should('length','3')

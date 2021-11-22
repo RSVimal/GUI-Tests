@@ -53,6 +53,14 @@ Tried the below logic to validate whether the "available balance" is equal to th
        cy.get(':nth-child(5) > :nth-child(2) > .ng-binding').invoke('text').then((totalbalance) => {
        expect(+totalbalance).to.equal(sum)
        })
+       
+Validated whether user able to click the button at the top,left,topright,bottomleft
+
+Checked whether the button color is correct or not
+
+Checked whether the page title is correct or not
+
+Checked whether the table contains the expected number of rows
 
 Methods and properties used:
 
@@ -77,4 +85,8 @@ click() - Used to click the button on the page
 type() - Used to enter the text on the text input field
 
 cy.select() - Used to select the particular value on the drop down
+
+cy.title() - Used to validate the title of the page
+
+click('top') - Used to validate whether the button is accessible when user clicks the button at different location on the button
 
